@@ -1,0 +1,105 @@
+header, div.header {
+  height: 72px;
+  background-color: rgba(163, 228, 215,1);
+
+}
+
+.hide {
+  visibility: hidden;
+}
+
+header.sticky, div.header.sticky {
+  background-color: rgba(163, 228, 215, 0.9);
+  height: 72px;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 999;
+}
+
+header.sticky + main, div.header.sticky + main {
+  margin-top: 72px;
+}
+
+.nav-menu>.links>ul.nav>li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-menu>.links>ul.nav>li a {
+  font-size: 1.5em;
+}
+.link-menu {
+  margin-right: 5px;
+}
+
+.nav-menu>.links>ul.nav>li a:hover {
+  color: #1abc9c;
+}
+
+ul.nav {
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 72px;
+  margin: 0 auto;
+}
+
+/* Hamburger Menu */
+.dropdownButton {
+    color: #333333;
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    margin-top: 14px;
+    display: none;
+    position: absolute;
+    background-color: #D7DBDD;
+    min-width: 230px;
+    z-index: 1;
+}
+
+.dropdownContent ul {
+    margin:0;
+    padding: 0;
+ }   
+
+.dropdownContent li {
+    list-style-type: none;
+    list-style: none;
+    margin:0;
+    padding: 0;
+ }
+
+ .dropdownContent li span {
+    margin-right: 7px;
+ }
+ .dropdownContent li:first-of-type {
+    background-color: #ffc55b;
+}
+
+.dropdownContent a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background-color: #a3e4d7;
+}
+.dropdownContent li:last-of-type a:hover {
+    background-color: #d34545;
+    color: #e5e5e5;
+}
+.display {
+  display: block;
+}
