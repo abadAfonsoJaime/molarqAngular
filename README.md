@@ -1,6 +1,6 @@
-# MolarqAngular
+# MolarqApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+This a prototype to migrate MOLARQ project (https://github.com/abadAfonsoJaime/MOLARQ) to Angular framework. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
 ## Development server
 
