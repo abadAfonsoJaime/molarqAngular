@@ -1,0 +1,45 @@
+<!--MAP-->
+<div id="map" class="main parent">
+  <div class="wrapper-fluid">
+    <fieldset>
+      <legend><h1>Marcadores de Yacimientos</h1></legend>
+<!--       <h3>Por Provincia</h3>
+    <form class="dropdown">
+      <input class="chosen-value" type="text" value="" placeholder="Provincias">
+      <ul class="value-list">
+        <li onclick="javascript:$('#map_canvas').trigger('show', 'CUE')">Cuenca</li>
+        <li onclick="javascript:$('#map_canvas').trigger('show', 'GER')">Gerona</li>
+        <li onclick="javascript:$('#map_canvas').trigger('show', 'TAR')">Tarragona</li>
+      </ul>
+    </form> -->
+<!--       <select name="Provincia" id="Provincia">
+        <option value="default">-Seleccione provincia-</option>
+        <option onclick="javascript:$('#map_canvas').trigger('show', 'CUE')" value="CUE">Cuenca</option>
+        <option onclick="javascript:$('#map_canvas').trigger('show', 'TAR')" value="TAR">Tarragona</option>
+        <option onclick="javascript:$('#map_canvas').trigger('show', 'GER')" value="GER">Gerona</option>
+    </select> -->
+    <h3>Por Cronología</h3>
+    <form class="dropdown">
+      <input class="chosen-value" type="text" value="" placeholder="Cronología">
+      <ul class="value-list">
+        <li onclick="javascript:$('#map_canvas').trigger('show', '1')">Grecia</li>
+        <li onclick="javascript:$('#map_canvas').trigger('show', '2')">Roma</li>
+      </ul>
+    </form>
+<!--       <select name="Cronologia" id="Cronologia">
+        <option value="default">-Seleccione cultura-</option>
+        <option onclick="javascript:$('#map_canvas').trigger('show', '1')" value="GRE">Grecia</option>
+        <option onclick="javascript:$('#map_canvas').trigger('show', '2')" value="ROM">Roma</option>
+    </select> -->
+    <p><a onclick="javascript:$('#map_canvas').trigger('show', '2')"><strong>Próximos eventos</strong></a></p>
+    <p><strong>Controles</strong></p>
+    <div id="workerButton" class="controlMap">Actualizar marcadores</div>
+    <div class="controlMap"><a onclick="javascript:$('#map_canvas').trigger('hide_all')">Ocultar marcadores</a></div>
+    <div class="controlMap"><a onclick="javascript:$('#map_canvas').trigger('reset')">Centrar Mapa</a></div>
+    </fieldset>
+    
+    <!-- <div><input type="search" maxlength="50"></div>   -->  
+
+    <div id="map_canvas"></div>
+  </div>
+</div>
