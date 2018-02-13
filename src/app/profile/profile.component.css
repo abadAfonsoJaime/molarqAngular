@@ -1,0 +1,65 @@
+.profile-card {
+  width: calc(48% - 42px);
+  float: left;
+  margin: 1%;
+  background: #ffffff;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.profile-card  h3 {
+  margin: 0 -20px 20px -20px;
+  padding: 20px;
+  background-color: #e5e5e5;
+}
+
+.profile-card::after {
+  content: "______________________________";
+  color: #999999;
+}
+
+/* Estilos para smartphones */
+@media only screen and (max-width:480px) {
+  .calendar {
+    font-size: 12em;
+  }
+
+  .title-event {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .date-event {
+    font-size: 1.3em;
+    color: #1abc9c;
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+
+  .profile-card {
+    width: calc(92% - 42px);
+    float: left;
+    margin: 2% 4% 4% 4%;
+    background: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  .profile-card::after {
+    display: none;
+  }
+}
+
+/* Estilos para phablets y tablets */
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .profile-card {
+      width: calc(92% - 42px);
+      float: left;
+      margin: 2% 4% 4% 4%;
+      background: #ffffff;
+      padding: 0 20px 20px 20px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+}

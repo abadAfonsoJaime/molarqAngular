@@ -179,12 +179,9 @@ iframe {
     width: 100%;
   }
 
-.mobileheader {
-  display: block;
-}
-    .logo {
-      display: none;
-    }
+  .logo {
+    display: none;
+  }
 
   .banner img {
     display: none;
@@ -200,62 +197,6 @@ div.wrapper-fluid fieldset {
     margin-bottom: 24px;
   }
 
-    footer, div.footer {
-     padding: 20px 0;
-    }
-        
-    ul.legalstuff > li:first-child {
-        width: 100%;
-    }
-    
-     .nav-menu .col-25 {
-    width: 25%;
-  }
-  .nav-menu .col-75 {
-    width: 75%;
-    text-align: right;
-  }
-  .nav-menu>.links>ul.nav {
-    margin: 0;
-    padding: 0;
-  }
-  .nav-menu>.links>ul.nav>li a {
-    font-size: 48px;
-    margin: 0;
-  }
-  .nav-menu>.links>ul.nav>li span.link-menu {
-    display: none;
-  }
-
-  .calendar {
-    font-size: 12em;
-  }
-
-  .title-event {
-    font-size: 1.3em;
-    text-align: center;
-  }
-
-  .date-event {
-    font-size: 1.3em;
-    color: #1abc9c;
-    padding-top: 0;
-    padding-bottom: 24px;
-  }
-
-  .profile-card {
-    width: calc(92% - 42px);
-    float: left;
-    margin: 2% 4% 4% 4%;
-    background: #ffffff;
-    padding: 0 20px 20px 20px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-  }
-  .profile-card::after {
-    display: none;
-  }
-
 }
 
 /* Estilos para phablets y tablets */
@@ -268,24 +209,6 @@ div.wrapper-fluid fieldset {
     margin-left: 4%;
     margin-right: 4%;
    }
-    
-    footer, div.footer {
-     padding: 20px 0;
-    }
-    
-    ul.legalstuff > li:first-child {
-        width: 100%;
-    }
-
-    .profile-card {
-      width: calc(92% - 42px);
-      float: left;
-      margin: 2% 4% 4% 4%;
-      background: #ffffff;
-      padding: 0 20px 20px 20px;
-      border: 1px solid #ddd;
-      border-radius: 3px;
-    }
     .logo {
       display: none;
     }
@@ -320,7 +243,6 @@ div.wrapper-fluid fieldset {
 }
 
 /* Title Font */
-
 @font-face {
   font-family: "title";
   src: url("assets/Megrim.eot");
@@ -329,9 +251,7 @@ div.wrapper-fluid fieldset {
   font-style: normal;
 }
 
-
 /* Text Font */
-
 @font-face {
   font-family: "text";
   src: url("assets/Rubik.eot");

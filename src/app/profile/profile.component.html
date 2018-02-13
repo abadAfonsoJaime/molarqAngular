@@ -1,3 +1,78 @@
-<p>
-  profile works!
-</p>
+<!--   MAIN   -->
+<div class="main parent">
+    <div class="wrapper">
+        <div class="row parent">
+        <div class="profile-card">
+            <h3>Mis eventos</h3>
+            <div class="row parent">
+                <div class="div col-25"><h5>Próximo evento:</h5></div>
+                <div class="div col-75 date-event right">
+                    <a href="event.html">3er Festival de Cine Arqueológico</a> - 06/04/2018</div>
+                <div class="calendar">
+                    <span class="fa fa-calendar"></span>
+                </div>
+            </div>
+        </div>
+        <div id="userInfo" class="profile-card">
+           <h3>Datos personales de {{name}}</h3>
+                <div class="row parent">
+                    <div class="col-50">
+                        <img src="img/user.png" alt="My profile picture">
+                    </div>
+                    <div class="col-50">
+                            <strong>@{{userName}}</strong><br/>
+                            <small>Tu perfil es {{occupation}}</small>                      
+                    </div>
+                </div>
+                <div class="row parent">
+                    <div class="div col-50"><strong>Nombre:</strong></div>
+                    <div class="div col-50">{{userName}}</div>
+                </div>
+                <div class="row parent">
+                    <div class="div col-50"><strong>Apellidos:</strong></div>
+                    <div class="div col-50">{{surname}}</div>
+                </div>
+                <div class="row parent">
+                    <div class="div col-50"><strong>Fecha de nacimiento:</strong></div>
+                    <div class="div col-50">{{birthdate}}</div>
+                </div>
+                <hr />
+                <div class="row parent">
+                    <div class="div col-50"><strong>Correo electrónico:</strong></div>
+                    <div class="div col-50">{{email}}</div>
+                </div>
+                <div class="row parent">
+                    <div class="div col-50"><strong>Contraseña:</strong></div>
+                    <div class="div col-50">{{userPassword}}</div>
+                </div>
+        </div>
+
+        <div class="profile-card">
+            <h3>Configuración de privacidad</h3>
+            <div class="row parent">
+                <div class="div col-50">Visibilidad de mis comentarios</div>
+                <div class="div col-50"></div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <h3>Yacimientos favoritos</h3>
+            <div>
+                <img class="col-site" src="img/arq.jpg" alt="user">
+            </div>
+            <div>
+                <img class="col-site" src="img/arq.jpg" alt="ark">
+            </div>
+            <div>
+                <img class="col-site" src="img/arq.jpg" alt="ark">
+            </div>
+            <div>
+                <img class="col-site" src="img/arq.jpg" alt="ark">
+            </div>
+            <div>
+                <img class="col-site" src="img/arq.jpg" alt="ark">
+            </div>
+            <h5>Últimas actualizaciones en los yacimientos que sigues</h5>
+        </div>
+    </div>
+    </div>
+</div>
