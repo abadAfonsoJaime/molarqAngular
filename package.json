@@ -1,7 +1,9 @@
 {
-  "name": "molarq-angular",
-  "version": "0.0.0",
+  "name": "molarqApp",
+  "description": "MOLARQ project",
+  "version": "0.0.1",
   "license": "MIT",
+  "repository": "https://github.com/abadAfonsoJaime/molarqApp",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
