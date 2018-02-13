@@ -1,22 +1,22 @@
-/* Title Font */
-@font-face {
+ /* Title Font */
+/* @font-face {
   font-family: "title";
   src: url("assets/Megrim.eot");
   src: local("☺"), url("assets/Megrim.ttf") format("truetype"), url("assets/Megrim.svg") format("svg"), url("assets/Megrim.woff") format("woff"), url("assets/Megrim.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 
 /* Text Font */
-@font-face {
+/* @font-face {
   font-family: "text";
   src: url("assets/Rubik.eot");
   src: local("☺"), url("assets/Rubik.ttf") format("truetype"), url("assets/Rubik.svg") format("svg"), url("assets/Rubik.woff") format("woff"), url("assets/Rubik.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-}
-
+} */
+ */ 
 
 /* Body video y h */
 body {
