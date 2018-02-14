@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+// Added by ng generate component xxxxx
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
@@ -17,6 +17,10 @@ import { AddEventComponent } from './add-event/add-event.component';
 import { AddSiteComponent } from './add-site/add-site.component';
 import { AdminViewComponent } from './admin-view/admin-view.component';
 import { CalendarComponent } from './calendar/calendar.component';
+
+// Added by ng generate module xxxxx
+import { AppRoutingModule } from './/app-routing.module';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -35,10 +39,12 @@ import { CalendarComponent } from './calendar/calendar.component';
     AddEventComponent,
     AddSiteComponent,
     AdminViewComponent,
-    CalendarComponent
+    CalendarComponent,
+    MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
