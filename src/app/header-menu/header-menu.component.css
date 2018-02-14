@@ -13,12 +13,13 @@ header.sticky, div.header.sticky {
   height: 72px;
   position: fixed;
   top:0;
+  right: 0;
+  bottom: 0;
   left: 0;
   z-index: 999;
 }
-
-header.sticky + main, div.header.sticky + main {
-  margin-top: 72px;
+.nav-menu>.links>ul.nav {
+  margin-top: 1.5em;
 }
 
 .nav-menu>.links>ul.nav>li {
@@ -29,6 +30,7 @@ header.sticky + main, div.header.sticky + main {
 .nav-menu>.links>ul.nav>li a {
   font-size: 1.5em;
 }
+
 .link-menu {
   margin-right: 5px;
 }
@@ -37,9 +39,7 @@ header.sticky + main, div.header.sticky + main {
   color: #1abc9c;
 }
 
-ul.nav {
-  margin-top: 20px;
-}
+
 
 .logo img {
   width: 72px;
@@ -60,7 +60,7 @@ ul.nav {
 }
 
 .dropdownContent {
-    margin-top: 14px;
+    margin-top: 13px;
     display: none;
     position: absolute;
     background-color: #D7DBDD;
@@ -102,4 +102,54 @@ ul.nav {
 }
 .display {
   display: block;
+}
+
+/* Estilos para smartphones */
+@media only screen and (max-width:480px) {
+
+.mobileheader {
+  display: block;
+}
+    .logo {
+      display: none;
+    }
+    
+  .nav-menu .col-25 {
+    width: 5%;
+  }
+  .nav-menu .col-50 {
+    width: 95%;
+    text-align: right;
+  }
+  .nav-menu .col-75 {
+    width: 75%;
+    text-align: right;
+  }
+  .nav-menu>.links>ul.nav {
+    margin-top: 10px;
+  }
+  .nav-menu>.links>ul.nav>li a {
+    font-size: 48px;
+    margin: 0;
+  }
+  .nav-menu>.links>ul.nav>li span.link-menu {
+    display: none;
+  }
+}
+
+/* Estilos para phablets y tablets */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .nav-menu .col-50 {
+    width: 75%;
+    text-align: right;
+  }
+  .nav-menu>.links>ul.nav {
+    margin-top: 10px;
+  }
+  .nav-menu>.links>ul.nav>li a {
+    font-size: 48px;
+  }
+  .nav-menu>.links>ul.nav>li span.link-menu {
+    display: none;
+  }
 }
