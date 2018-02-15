@@ -3,8 +3,8 @@
   <div class="wrapper-fluid">
     <fieldset>
       <legend><h1>Marcadores de Yacimientos</h1></legend>
-<!--       <h3>Por Provincia</h3>
-    <form class="dropdown">
+      <h3>Por Provincia</h3>
+<!--     <form class="dropdown">
       <input class="chosen-value" type="text" value="" placeholder="Provincias">
       <ul class="value-list">
         <li onclick="javascript:$('#map_canvas').trigger('show', 'CUE')">Cuenca</li>
@@ -12,25 +12,25 @@
         <li onclick="javascript:$('#map_canvas').trigger('show', 'TAR')">Tarragona</li>
       </ul>
     </form> -->
-<!--       <select name="Provincia" id="Provincia">
+      <select name="Provincia" id="Provincia">
         <option value="default">-Seleccione provincia-</option>
         <option onclick="javascript:$('#map_canvas').trigger('show', 'CUE')" value="CUE">Cuenca</option>
         <option onclick="javascript:$('#map_canvas').trigger('show', 'TAR')" value="TAR">Tarragona</option>
         <option onclick="javascript:$('#map_canvas').trigger('show', 'GER')" value="GER">Gerona</option>
-    </select> -->
+    </select>
     <h3>Por Cronología</h3>
-    <form class="dropdown">
+<!--     <form class="dropdown">
       <input class="chosen-value" type="text" value="" placeholder="Cronología">
       <ul class="value-list">
         <li onclick="javascript:$('#map_canvas').trigger('show', '1')">Grecia</li>
         <li onclick="javascript:$('#map_canvas').trigger('show', '2')">Roma</li>
       </ul>
-    </form>
-<!--       <select name="Cronologia" id="Cronologia">
+    </form> -->
+      <select name="Cronologia" id="Cronologia">
         <option value="default">-Seleccione cultura-</option>
         <option onclick="javascript:$('#map_canvas').trigger('show', '1')" value="GRE">Grecia</option>
         <option onclick="javascript:$('#map_canvas').trigger('show', '2')" value="ROM">Roma</option>
-    </select> -->
+    </select>
     <p><a onclick="javascript:$('#map_canvas').trigger('show', '2')"><strong>Próximos eventos</strong></a></p>
     <p><strong>Controles</strong></p>
     <div id="workerButton" class="controlMap">Actualizar marcadores</div>
@@ -40,6 +40,8 @@
     
     <!-- <div><input type="search" maxlength="50"></div>   -->  
 
-    <div id="map_canvas"></div>
+    <!-- <div id="map_single"></div> -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9824511.696703497!2d-7.1159920699627905!3d41.798668727192116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e0!3m2!1ses!2ses!4v1518725382144" width="100%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>

@@ -1,0 +1,9 @@
+header, div.header {
+  height: 72px;
+  background-color: rgba(163, 228, 215,1);
+}
+
+.logo-init img {
+  width: 96px;
+  margin-left: calc((100% / 2) - 48px);
+}
