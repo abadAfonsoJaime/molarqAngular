@@ -17,6 +17,7 @@ import { AddEventComponent } from './add-event/add-event.component';
 import { AddSiteComponent } from './add-site/add-site.component';
 import { AdminViewComponent } from './admin-view/admin-view.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 // Added by ng generate module xxxxx
 import { AppRoutingModule } from './/app-routing.module';
