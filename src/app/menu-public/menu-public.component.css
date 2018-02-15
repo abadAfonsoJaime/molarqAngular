@@ -1,23 +1,3 @@
-header, div.header {
-  height: 72px;
-  background-color: rgba(163, 228, 215,1);
-
-}
-
-.hide {
-  visibility: hidden;
-}
-
-header.sticky, div.header.sticky {
-  background-color: rgba(163, 228, 215, 0.9);
-  height: 72px;
-  position: fixed;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-}
 .nav-menu>.links>ul.nav {
   margin-top: 1.5em;
 }
@@ -38,8 +18,6 @@ header.sticky, div.header.sticky {
 .nav-menu>.links>ul.nav>li a:hover {
   color: #1abc9c;
 }
-
-
 
 .logo img {
   width: 72px;
