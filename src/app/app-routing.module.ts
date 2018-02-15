@@ -9,16 +9,16 @@ import { SiteComponent } from './site/site.component';
 import { EventComponent } from './event/event.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-/* import { ProfileComponent } from './profile/profile.component'; */
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/map', pathMatch: 'full' }, // Página Inicio
-  { path: '/map', component: MapComponent },
-  { path: '/site', component: SiteComponent },
-  { path: '/event', component: EventComponent },
-  { path: '/register', component: RegisterComponent },
-  { path: '/login', component: LoginComponent }
-  /* { path: '/profile', component: ProfileComponent }, */
+  { path: '', redirectTo: '/login', pathMatch: 'full' }, // Página Inicio
+  { path: 'map', component: MapComponent },
+  { path: 'site', component: SiteComponent },
+  { path: 'event', component: EventComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'profile', component: ProfileComponent }
 ];
 @NgModule({
   imports: [

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+/* import * as $ from 'jquery'; */
 // import * as variable from 'mapit';
 
 @Component({
@@ -77,16 +77,13 @@ export class MapComponent implements OnInit {
     //   var dropdownArray = [].concat(document.querySelectorAll('li'));
     //   var dropdownItems = dropdownArray[0];
     //   dropdown.classList.add('open');
-       
     //   var valueArray = [];
     //   dropdownItems.forEach(function (item) {
     //     valueArray.push(item.textContent);
     //   });
-       
     //   var closeDropdown = function closeDropdown() {
     //     dropdown.classList.remove('open');
     //   };
-       
     //   inputField.addEventListener('input', function () {
     //     dropdown.classList.add('open');
     //     var inputValue = inputField.value.toLowerCase();
