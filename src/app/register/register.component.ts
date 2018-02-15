@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuPrivateComponent } from '../menu-private/menu-private.component';
 
 @Component({
   selector: 'app-register',

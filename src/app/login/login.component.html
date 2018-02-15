@@ -1,3 +1,5 @@
+<app-menu-private></app-menu-private>
+
 <!--LOGIN FORM-->
 <div class="main parent clear">
   <div class="wrapper">
@@ -36,7 +38,7 @@
       <!--           Entrar-->
       <div class="col-95 formbutton formcentre">
         <!-- <input type="submit" id="enviar" /> -->
-        <div class="button" id="login">Enviar</div>
+        <div class="button" id="login">Iniciar sesión</div>
       </div>
 
 
@@ -46,12 +48,13 @@
     <!--        Registrarme-->
     <div class="formbutton formcentre" id="registrarme">
       <p>¿Aún no perteneces a nuestra comunidad?</p>
-      <a href="register.html" class="button">Regístrate</a>
+      <a routerLink="/register" class="button">Regístrate</a>
     </div>
 
     <!--       He Olvidado mi contraseña-->
     <div class="col-95 formbutton formcentre" id="forgotpass">
-      <a href="adminhelp.php">He olvidado mi contraseña</a>
+      <p><a routerLink="/recover">He olvidado mi contraseña</a></p>
+      <p><a routerLink="/map">Entrar sin registrar</a></p>
     </div>
 
 
