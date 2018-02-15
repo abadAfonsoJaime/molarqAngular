@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CommentsComponent } from './comments/comments.component';
 import { LoginComponent } from './login/login.component';
@@ -17,11 +16,11 @@ import { AddEventComponent } from './add-event/add-event.component';
 import { AddSiteComponent } from './add-site/add-site.component';
 import { AdminViewComponent } from './admin-view/admin-view.component';
 import { CalendarComponent } from './calendar/calendar.component';
-import { AppRoutingModule } from './/app-routing.module';
 
 // Added by ng generate module xxxxx
 import { AppRoutingModule } from './/app-routing.module';
-import { MenuComponent } from './menu/menu.component';
+import { MenuPublicComponent } from './menu-public/menu-public.component';
+import { MenuPrivateComponent } from './menu-private/menu-private.component';
 
 
 @NgModule({
@@ -30,7 +29,6 @@ import { MenuComponent } from './menu/menu.component';
     MapComponent,
     FooterComponent,
     HeaderComponent,
-    HeaderMenuComponent,
     ProfileComponent,
     CommentsComponent,
     LoginComponent,
@@ -41,7 +39,8 @@ import { MenuComponent } from './menu/menu.component';
     AddSiteComponent,
     AdminViewComponent,
     CalendarComponent,
-    MenuComponent
+    MenuPublicComponent,
+    MenuPrivateComponent
   ],
   imports: [
     BrowserModule,

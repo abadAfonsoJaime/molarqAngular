@@ -16,10 +16,12 @@ const routes: Routes = [
   { path: 'map', component: MapComponent },
   { path: 'site', component: SiteComponent },
   { path: 'event', component: EventComponent },
+  { path: 'calendar', component: CalendarComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'profile', component: ProfileComponent }
 ];
+
 @NgModule({
   imports: [
     CommonModule,
